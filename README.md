@@ -1,8 +1,8 @@
 # StringClasses
-Difference between the three classes provided by Java to manage strings: String, StringBuilder, StringBuffer
+Differences between the three classes provided by Java to manage strings: String, StringBuilder, StringBuffer
 
 String Buffer works synchronized. This means that when working with thread programming, two or more threads cannot 
-call an String Builder simultaneously. This affects to the performarce of the method an its slower than the  String Builder method
+call an String Builder simultaneously. This affects to the performance of the method an its slower than the  String Builder method
 
 String Builder works non-synchronized. This class is the worst to use when working with threads but it provides a
 better performance than String Buffer. When using mono thread programs, this method is ideal for the management of
