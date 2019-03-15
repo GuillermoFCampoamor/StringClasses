@@ -8,7 +8,7 @@ String Builder works non-synchronized. This class is the worst to use when worki
 better performance than String Buffer. When using mono thread programs, this method is ideal for the management of
 strings
 
-Strinc class is the worst of the three when performing operations. If we want to expand a String ( String s += "blabla";), this operation will destroy the previous String and create it again concatenated with the new value. This causes high execution times when performing a high number of concatenations.
+String class is the worst of the three when performing operations. If we want to expand a String ( String s += "blabla";), this operation will destroy the previous String and create it again concatenated with the new value. This causes high execution times when performing a high number of concatenations.
 
 
 In the snippset of code attached it is show the measurement times for the execution of a concatenation operations 
